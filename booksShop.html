@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Books Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--scrip para conectar con vue a través de CDN-->
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
+	<link rel="stylesheet" href="styleBook.css">
+
+</head>
+
+<body>
+	<div id="app">
+
+		<div class="row divLogo container">
+			
+			<div class="col-lg-1"></div>
+			<div class="col-lg-7">
+				<img src="imgBooks/logo.jpg" class="logo">
+			</div>
+			
+			<div class="col-lg-3">
+			
+				<input type="text" id="mySearch" @keyup="filterBooks()" placeholder="Search.." class="search">
+			</div>
+		</div>
+
+		<div class="myMenu">
+
+		</div>
+
+		<div class="container">
+			<!--
+		<div class="container h-100">
+			<div class="d-flex justify-content-center h-100">
+				<div class="searchbar">
+					<input class="search_input" type="text" name="" placeholder="Search...">
+					<a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+		</div>
+-->
+			<div id="divPortada" class="divPrincipal row container">
+
+
+			</div>
+			<script src="mainBooks.js"></script>
+		</div>
+	</div>
+</body>
+
+</html>
